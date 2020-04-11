@@ -14,7 +14,7 @@ $ npm start
 ### Générer le code de production
 
 ```console
-$ npm run build
+$ PUBLIC_URL=/ npm run build
 ```
 
 Le code à déployer sera dans le dossier `dist`
